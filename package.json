@@ -1,6 +1,6 @@
 {
   "name": "npm-scout-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool for npm-scout",
   "author": {
     "name": "LasaleFamine",
@@ -11,7 +11,7 @@
     "node": ">=6.0.0"
   },
   "files": [
-    "src/index.js"
+    "src/cli.js"
   ],
   "keywords": [
     "npm",
