@@ -1,0 +1,42 @@
+{
+  "name": "npm-scout-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for npm-scout",
+  "author": {
+    "name": "LasaleFamine",
+    "email": "info@godev.space"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "npm",
+    "github",
+    "scout",
+    "npm-info",
+    "npm-api",
+    "npm-scout",
+    "npm-repo-scout",
+    "npm-repo-scout-cli",
+    "npm-scout-cli"
+  ],
+  "scripts": {
+    "test": "xo --space && ava"
+  },
+  "bin": {
+    "npm-scout": "src/cli.js"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "npm-scout": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "execa": "^0.5.0",
+    "xo": "^0.17.1"
+  }
+}
