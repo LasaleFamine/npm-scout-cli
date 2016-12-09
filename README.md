@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ yarn add --global npm-scout-cli
+$ yarn global add npm-scout-cli
 ```
 
 
